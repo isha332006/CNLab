@@ -2,7 +2,7 @@ import socket
 import cv2
 import numpy as np
 
-IP='localhost'   # Server IP address or '0.0.0.0' to listen on all interfaces
+IP='localhost'   
 PORT=5001        # Port to listen on
 CHUNK_SIZE=4096
 
@@ -29,3 +29,4 @@ while True:
 
 cv2.destroyAllWindows()
 sock.close()
+
